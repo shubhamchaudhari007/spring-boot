@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 05-Springboot-Datajpa-app-assignment
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shubham
+    username: root
+    password: mr.shubs
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
